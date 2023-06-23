@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2.services-title {
+    position: relative;
+    margin: 10px 0 50px 0;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 20px 0;
+    width: 100%;
+    text-align: left;
+}
+h2.services-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 4px;
+    background-color:#c05b08;
+}

@@ -1,0 +1,38 @@
+.service-card {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .5px solid rgb(126, 126, 126);
+    padding: 10px 5px 30px 5px;
+    margin: 20px 0;
+    display: none;
+}
+.service-card.active {
+    display: flex;
+}
+.service-card > p.serv-info {
+    margin: 10px 0;
+    color: rgb(49, 49, 49);
+}
+.service-card > h3.serv-price {
+    position: relative;
+    margin: 10px 0;
+    color: rgb(22, 112, 22);
+}
+.service-card > button.select-serv-btn {
+    position: relative;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: snow;
+    background-color: rgb(22, 112, 22);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+    letter-spacing: 1px;
+}
+.service-card > button.select-serv-btn.selected {
+    opacity: .7;
+    cursor: default;
+}

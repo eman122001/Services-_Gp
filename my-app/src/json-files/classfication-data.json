@@ -1,0 +1,88 @@
+{
+    "Electricity" : [
+        {"item" : "All"  , "cetogry" : "All All" },
+        {"item" : "Lighting" , "cetogry" : "All Lighting"},
+        {"item" : "Outlets / Shells" , "cetogry" : "All Outlets"},
+        {"item" : "Fans / Saction Fan", "cetogry" : "All Fans"},
+        {"item" : "Maintenance and Installations" , "cetogry" : "All Maintenance"},
+        {"item" : "Setup & Finishing" , "cetogry" : "All Setup"},
+        {"item" : "Other Services" ,"cetogry" : "All Other"}
+    ],
+    "Carpentry" : [
+        {"item" : "All"  , "cetogry" : "All All" },
+        {"item" : "Door (Uninstall/ Install/ Repair)" , "cetogry" : "All Door"},
+        {"item" : "Bed (Uninstall/ Install/ Repair)" , "cetogry" : "All Bed"},
+        {"item" : "Window (Uninstall/ Install/ Repair)", "cetogry" : "All Window"}
+    ],
+    "Plumbing" : [
+        {"item" : "All"  , "cetogry" : "All All" },
+        {"item" : "Sink and Faucet (Uninstall/ Install/ Repair)" , "cetogry" : "All Sink"},
+        {"item" : "Waterheater (Uninstall/ Install)" , "cetogry" : "All Waterheater"},
+        {"item" : "Bathtub& Toilet-Seat (Uninstall/ Install/ Repair)", "cetogry" : "All Bathtub"},
+        {"item" : "Shower (Uninstall/ Install/ Repair)" , "cetogry" : "All Shower"},
+        {"item" : "Setup & Finishing" , "cetogry" : "All Finishing"},
+        {"item" : "Other Services" ,"cetogry" : "All Other"}
+    ],
+    "Painting" : [
+        {"item" : "All"  , "cetogry" : "All All" },
+        {"item" : "Door / Window" , "cetogry" : "All Door / Window"},
+        {"item" : "Decor / Wallpaper" , "cetogry" : "All Decor / Wallpaper"},
+        {"item" : "Roofs & Walls", "cetogry" : "All Roofs & Walls"},
+        {"item" : "Corniche", "cetogry" : "All Corniche"}
+    ],
+    "Conditioning" : [
+        {"item" : "All"  , "cetogry" : "All All" },
+        {"item" : "Repairing"  , "cetogry" : "All Repairing" },
+        {"item" : "Install / Remove" , "cetogry" : "All Install / Remove"}
+    ],
+    "Cleaning" : [
+        {"item" : "All"  , "cetogry" : "All All" },
+        {"item" : "All"  , "cetogry" : "All SoftCleaning" },
+        {"item" : "Deep Cleaning" , "cetogry" : "All DeepCleaning"},
+        {"item" : "After Construction Finishing" , "cetogry" : "All AfterConstructionFinishing"}
+    ],
+    "Satellite" : [
+        {"item" : "All"  , "cetogry" : "All All" },
+        {"item" : "Fix" , "cetogry" : "All Fix"},
+        {"item" : "Install/Remove" , "cetogry" : "All Install/Remove"}
+    ],
+    "Gypsum-Board" : [
+        {"item" : "All"  , "cetogry" : "All All" },
+        {"item" : "Setup & Finish" , "cetogry" : "All Setup&Finish"}
+    ],
+    "Ceramic" : [
+        {"item" : "All"  , "cetogry" : "All All" },
+        {"item" : "Install (Ceramic/ Tiles/ Porcelain)" , "cetogry" : "All Install"},
+        {"item" : "Decor/ Wallpaper" , "cetogry" : "All Decor/Wallpaper"},
+        {"item" : "Roofs& Walls", "cetogry" : "All Roofs&Walls"},
+        {"item" : "Corniche", "cetogry" : "All Corniche"}
+    ],
+    "Aluminum" : [
+        {"item" : "All"  , "cetogry" : "All All" },
+        {"item" : "Window (Remove/ Install/ Repair)" , "cetogry" : "All Window"},
+        {"item" : "Door (Remove/ Install/ Repair)" , "cetogry" : "All Door"},
+        {"item" : "Customize aluminium kitchen/ window/ door", "cetogry" : "All Customize"}
+    ],
+    "Appliances" : [
+        {"item" : "All"  , "cetogry" : "All All" },
+        {"item" : "Fridges & freezers" , "cetogry" : "All Fridges&freezers"},
+        {"item" : "Laundry Machine (Auto/ Regular) &. Dryers" , "cetogry" : "All Laundry Machine (Auto/ Regular) &. Dryers"},
+        {"item" : "Cookers", "cetogry" : "All Cookers"}
+    ],
+    "Sterilizatio" : [
+        {"item" : "All"  , "cetogry" : "All All" },
+        {"item" : "Sterilization & Disinfection meter" , "cetogry" : "All Sterilization & Disinfection meter"}
+    ],
+    "Pest-Control" : [
+        {"item" : "All"  , "cetogry" : "All All" },
+        {"item" : "Crawling Insects (Ant, Coclroaches, Beatles, etc..)" , "cetogry" : "All Crawling Insects (Ant, Coclroaches, Beatles, etc..)"},
+        {"item" : "Flies (Mosquitos, Flies, and etc..)" , "cetogry" : "All Flies (Mosquitos, Flies, and etc..)"},
+        {"item" : "Rodents (Mice, Rats, Jaculus)", "cetogry" : "All Rodents (Mice, Rats, Jaculus)"},
+        {"item" : "Crawlings (Scorpion, Snakes, Lizards and Geckos)", "cetogry" : "All Crawlings (Scorpion, Snakes, Lizards and Geckos)"}
+    ],
+    "Plastering" : [
+        {"item" : "All"  , "cetogry" : "All All" },
+        {"item" : "Plastering Works" , "cetogry" : "All Plastering Works"}
+       ]
+
+}

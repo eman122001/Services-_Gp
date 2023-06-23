@@ -1,0 +1,628 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.services-section {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+
+}
+section.services-section .container {
+    position: relative;
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+section.services-section .parent-of-requests-popub {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.409);
+    z-index: 9999999999;
+    display: flex;
+    justify-content: center;
+    transition: .3s;
+    display: none;
+}
+/* section.services-section .parent-of-requests-popub .requests-popub::-webkit-scrollbar {
+    background-color: #141a5d;
+} */
+section.services-section .parent-of-requests-popub .requests-popub::-webkit-scrollbar-thumb {
+    background-color: #140bc0;
+    box-shadow: 0px 0px 20px 30px #140bc0;
+    border-radius: 20px;
+}
+section.services-section .parent-of-requests-popub.active {
+    display: flex;
+}
+section.services-section .parent-of-requests-popub .requests-popub {
+    position: relative;
+    width: 900px;
+    min-height: 400px;
+    background-color: white;
+    border-radius: 5px; 
+    margin: 20px 0;
+    height: 500px;
+    overflow-y: scroll;
+}
+section.services-section .parent-of-requests-popub .requests-popub .serv-title-and-close {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 20px 20px;
+    border-bottom: .5px solid rgb(126, 126, 126);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+section.services-section .parent-of-requests-popub .requests-popub .serv-title-and-close .title-and-img-parent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.requests-popub .serv-title-and-close .title-and-img-parent > img {
+    width: 30px;
+    margin-right: 10px;
+}
+.requests-popub .serv-title-and-close .title-and-img-parent > h3.serv-title {
+    font-size: 23px;
+    font-weight: normal;
+}
+section.services-section .parent-of-requests-popub .requests-popub .serv-title-and-close button.close-serv-div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 5px;
+}
+section.services-section .parent-of-requests-popub .requests-popub .serv-title-and-close button.close-serv-div > i {
+    color: rgb(49, 49, 49);
+    font-size: 30px;
+    opacity: .8;
+}
+section.services-section .parent-of-requests-popub .requests-popub .serv-title-and-close button.close-serv-div:hover > i {
+    opacity: 1;
+}
+
+.all-services-and-requests-list {
+    position: relative;
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.all-services-and-requests-list .all-services {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    overflow-y: scroll;
+    width: 400px;
+}
+div.classfication-div {
+    position: relative;
+    white-space: nowrap;
+}
+ul.classfication-list {
+    position: relative;
+    display: flex;
+    list-style: none;
+    overflow: auto;
+    border-bottom: .5px solid rgb(126, 126, 126);
+}
+ul.classfication-list::-webkit-scrollbar {
+    width: 0;
+}
+ul.classfication-list li {
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 5px 10px;
+    color: #b2b2b2;
+    transition: .3s;
+    display: flex;
+}
+ul.classfication-list li.active {
+    color: #2b4e72!important;
+    font-weight: 700;
+    border-bottom: 3px solid #2b4e72;
+}
+.all-services-and-requests-list .all-services::-webkit-scrollbar {
+    width: 5px;
+}
+.all-services-and-requests-list .all-services::-webkit-scrollbar-track {
+    background-color: rgb(255 255 255);
+}
+
+.all-services-and-requests-list .all-services::-webkit-scrollbar-thumb {
+    background-color: #eaeaea;
+    border-radius: 10px;
+}
+
+.all-services-and-requests-list .request-list {
+    position: relative;
+    width: 380px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    margin-left: 10px;
+}
+.all-services-and-requests-list .request-list .head-of-request-list {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #b2b2b2;
+}
+.all-services-and-requests-list .request-list .head-of-request-list > h2 {
+    font-size: 18px;
+    margin-left: 20px;
+}
+.all-services-and-requests-list .request-list::-webkit-scrollbar {
+    width: 5px;
+}
+.all-services-and-requests-list .request-list::-webkit-scrollbar-thumb {
+    background-color: #dedede;
+    border-radius: 5px;
+}
+.all-services-and-requests-list .request-list .serv-added {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    margin-left: 10px;
+}
+.all-services-and-requests-list .request-list .serv-added .serv-info {
+    position: relative;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.all-services-and-requests-list .request-list .serv-added .serv-info > h2.serv-name {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.all-services-and-requests-list .request-list .serv-added .serv-info > h3.serv-price {
+    color: green;
+    margin: 10px 0;
+}
+.all-services-and-requests-list .request-list .serv-added .increase-decrease {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-services-and-requests-list .request-list .serv-added .increase-decrease button {
+    margin: 0 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.all-services-and-requests-list .request-list .serv-added .increase-decrease button > i {
+    padding: 7px;
+    border-radius: 50%;
+    border: 2px solid rgb(20 26 93);
+    color: #141a5d;
+}
+
+.requests-popub .price-and-check-up {
+    position: relative;
+    width: 90%;
+    padding: 10px 0;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: .5px solid rgb(126, 126, 126);
+}
+
+.requests-popub .price-and-check-up .price-div {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.requests-popub .price-and-check-up .price-div > h2 {
+    font-size: 20px;
+    color: rgb(77, 77, 77);
+}
+
+.requests-popub .price-and-check-up >  button {
+    position: relative;
+    padding: 12px 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(32, 23, 126, 0.831);
+    color: snow;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: .3s;
+    letter-spacing: 1px;
+}
+.requests-popub .price-and-check-up >  button:hover {
+    background-color: rgb(31, 23, 126);
+}
+
+section.services-section .parent-of-requests-popub .requests-popub .close-request-ask {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    box-shadow: .5px 2px 6px rgb(214, 214, 214);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+    transform: translate(-50% , -10px);
+    z-index: 9999999999999999999999;
+}
+section.services-section .parent-of-requests-popub .requests-popub .close-request-ask.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50% , 0);
+}
+section.services-section .parent-of-requests-popub .requests-popub .close-request-ask > p {
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+}
+section.services-section .parent-of-requests-popub .requests-popub .close-request-ask .selection-btns {
+    position: relative;
+    display: flex;
+    margin: 20px 0 0 0;
+    justify-content: flex-end;
+}
+section.services-section .parent-of-requests-popub .requests-popub .close-request-ask .selection-btns button {
+    position: relative;
+    margin: 10px;
+    padding: 7px 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+.requests-popub .close-request-ask .selection-btns button.no-btn {
+    color: rgb(31, 31, 31);
+}
+.requests-popub .close-request-ask .selection-btns button.yes-btn {
+    color: red;
+}
+
+
+.complete-req-div {
+    position: fixed;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: 99999999;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.complete-req-div::-webkit-scrollbar {
+    background-color: transparent;
+}
+.complete-req-div.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.complete-req-div .head {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .5px solid rgb(201, 201, 201);
+}
+.complete-req-div .head .text-and-go-back {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.complete-req-div .head .text-and-go-back > p {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.complete-req-div .head .text-and-go-back button.go-back-btn,
+.complete-req-div .head .close-location-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.complete-req-div .head .text-and-go-back button.go-back-btn > i {
+    color: rgb(49, 49, 49);
+    font-size: 22px;
+    opacity: .8;
+    margin: 0 10px;
+}
+.complete-req-div .head .close-location-btn > i {
+    color: rgb(49, 49, 49);
+    font-size: 30px;
+    opacity: .8;
+}
+.complete-req-div .completing {
+    position: relative;
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 450px;
+    overflow-y: auto;
+}
+.complete-req-div .completing::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+}
+.complete-req-div .completing::-webkit-scrollbar-thumb {
+    background-color: #dedede;
+    border-radius: 10px;
+}
+.complete-req-div .completing .services-and-total-price,
+.complete-req-div .completing .services-and-total-price .client-services {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.complete-req-div .completing .services-and-total-price .client-services h2.title {
+    margin: 10px 0 30px 0;
+    font-weight: normal;
+}
+.complete-req-div .completing .services-and-total-price .client-services .services-div {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    align-items: flex-start;
+    height: 400px;
+}
+.complete-req-div .completing .services-and-total-price .client-services .services-div::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+}
+.complete-req-div .completing .services-and-total-price .client-services .services-div::-webkit-scrollbar-thumb {
+    background-color: #dedede;
+    border-radius: 10px;
+}
+.complete-req-div .completing .services-and-total-price .client-services .services-div .service-div {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 370px;
+}
+
+.complete-req-div .completing .services-and-total-price .client-services .services-div .service-div .service-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.complete-req-div .completing .services-and-total-price .client-services .services-div .service-div .service-info h2.service-name {
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: normal;
+}
+.complete-req-div .completing .services-and-total-price .client-services .services-div .service-div .service-info p.service-price {
+    font-weight: normal;
+}
+.complete-req-div .completing .services-and-total-price .client-services .services-div .service-div > p.service-quantity {
+    font-size: 20px;
+    
+}
+.complete-req-div .completing .services-and-total-price .total-price {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #b2b2b2;
+}
+.complete-req-div .completing .client-problem {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.complete-req-div .completing .client-problem > h2 {
+    margin: 10px 0 30px 0;
+    font-weight: normal;
+}
+.complete-req-div .completing .client-problem > form {
+    display: flex;
+    flex-direction: column;
+}
+.complete-req-div .completing .client-problem > form > textarea {
+    height: 100px;
+    padding: 10px ;
+    margin: 5px 0;
+}
+.complete-req-div .completing .client-problem > form .order-date {
+    background-color: #eef1f4;
+    border-radius: 10px;
+    padding: 0 20px;
+    margin: 15px 0;
+}
+.complete-req-div .completing .client-problem > form .order-date > h2 {
+    font-weight: normal;
+    margin: 10px 0;
+}
+.complete-req-div .completing .client-problem > form .order-date .input-div {
+    position: relative;
+    width: 300px;
+    height: 35px;
+    border: 1px solid rgb(161, 161, 161);
+    margin: 15px 0;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 0 3px;
+    background-color: white;
+}
+.complete-req-div .completing .client-problem > form .order-date .input-div > input {
+    position: absolute;
+    width: 99%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.complete-req-div .completing .client-problem > form .order-date .input-div.file-div {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: transparent;
+}
+.complete-req-div .completing .client-problem > form .order-date .input-div.file-div > img {
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+.complete-req-div .completing .client-problem > form .order-date .input-div.file-div > label {
+    cursor: pointer;    
+    color: #2b4e72;
+    font-weight: 700;
+}
+.complete-req-div .completing .client-problem > form .order-date .input-div.file-div > input {
+    position: relative;
+    width: 0 !important;
+}
+/* .complete-req-div .completing .client-problem > form .order-date .input-div.file-div > p {
+    display: inline-block;
+    cursor: pointer;
+    color: #2b4e72;
+    font-weight: 700;
+    margin: 0 5px;
+} */
+.complete-req-div .comleate-req-div {
+    position: relative;
+    width: 90%;
+    display: flex;
+    padding: 10px 0;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 1px solid #b2b2b2;
+}
+.complete-req-div .comleate-req-div button {
+    padding: 10px 20px;
+    color: snow;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgb(29, 62, 211);
+}
+
+
+@media (max-width: 700px) {
+    .all-services-and-requests-list {
+        width: 100%;
+    }
+    .all-services-and-requests-list .all-services {
+        width: 70%;
+    }
+    .complete-req-div .completing {
+        width: 100%;
+    }
+}
+@media (min-width: 10px) and (max-width: 410px) {
+    .complete-req-div {
+        width: 100%;
+    }
+    .complete-req-div .completing .services-and-total-price,
+    .complete-req-div .completing .client-problem {
+        width: 100%;
+    }
+    .complete-req-div .completing .client-problem {
+        margin-top: 20px;
+    }
+    .complete-req-div .completing .services-and-total-price .client-services .services-div .service-div {
+        width: 100%;
+    }
+    .complete-req-div .completing .client-problem > form .order-date {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .complete-req-div .completing .client-problem > form .order-date .input-div {
+        width: 90%;
+    }
+}
+@media (min-width: 411px) and (max-width: 810px) {
+    .complete-req-div {
+        width: 100%;
+    }
+    .complete-req-div .completing {
+        justify-content: center;
+        align-items: center;
+    }
+    .complete-req-div .completing .services-and-total-price,
+    .complete-req-div .completing .client-problem {
+        width: 90%;
+    }
+    .complete-req-div .completing .client-problem {
+        margin-top: 20px;
+    }
+    .complete-req-div .completing .services-and-total-price .client-services .services-div .service-div {
+        width: 90%;
+        background-color: #141a5d;
+    }
+    .complete-req-div .completing .client-problem > form .order-date {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 1029.33px) {
+    section.services-section .container {
+        justify-content: center;
+    }
+}

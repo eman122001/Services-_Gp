@@ -1,0 +1,161 @@
+{
+    "Electricity" : [
+        {"id" : 1 , "serv_info" : "Install flash light / Neon lamp 60 / 120 CM." , "min_price" : 20 , "max_price" : 25 , "cetogry" : "All Lighting"},
+        {"id" : 2 , "serv_info" : "Remove spot light." , "min_price" : 50 , "max_price" : 55 , "cetogry" : "All Lighting"},
+        {"id" : 3 , "serv_info" : "Install spot lights with creating a hole on gypsum" , "min_price" : 115 , "max_price" : 120 , "cetogry" : "All Lighting"},
+        {"id" : 4 , "serv_info" : "Install wall mount without breaking" , "min_price" : 50 , "max_price" : 55 , "cetogry" : "All Other"},
+        {"id" : 5 , "serv_info" : "Install wall mount with breaking." , "min_price" : 20 , "max_price" : 25 , "cetogry" : "All Lighting"},
+        {"id" : 6 , "serv_info" : "Install short led strip." , "min_price" : 50 , "max_price" : 55 , "cetogry" : "All Outlets"},
+        {"id" : 7 , "serv_info" : "Install small assembled chandeliers without installing hanger" , "min_price" : 115 , "max_price" : 120 , "cetogry" : "All Maintenance"},
+        {"id" : 8 , "serv_info" : "Install large assembled chandeliers without installing hanger." , "min_price" : 50 , "max_price" : 55 , "cetogry" : "All Other"},
+        {"id" : 9 , "serv_info" : "Install unassembled crystal chandeliers with out installing hanger." , "min_price" : 20 , "max_price" : 25 , "cetogry" : "All Outlets"},
+        {"id" : 10 , "serv_info" : "Fix chandeliers" , "min_price" : 50 , "max_price" : 55 , "cetogry" : "All Setup"},
+        {"id" : 11 , "serv_info" : "Install spotlight only without set up." , "min_price" : 115 , "max_price" : 120 , "cetogry" : "All Fans"},
+        {"id" : 12 , "serv_info" : "Install long led strip." , "min_price" : 50 , "max_price" : 55 , "cetogry" : "All Other"},
+        {"id" : 13 , "serv_info" : "Remove/ install lamb only." , "min_price" : 115 , "max_price" : 120 , "cetogry" : "All Maintenance"},
+        {"id" : 14 , "serv_info" : "Remove/ intall lamb-socket." , "min_price" : 50 , "max_price" : 55 , "cetogry" : "All Other"},
+        {"id" : 15 , "serv_info" : "Remove/ Install electric/light switch for an apartment." , "min_price" : 50 , "max_price" : 55 , "cetogry" : "All Other"}
+
+    ],
+    "Carpentry" : [
+        {"id" : 1 , "serv_info" : "Install new window frame + hings + handles" , "min_price" : 295 , "max_price" : 300 , "cetogry" : "All Window"},
+        {"id" : 2 , "serv_info" : "Install/ Uninstall old window frame" , "min_price" : 60 , "max_price" : 65 , "cetogry" : "All Window"},
+         {"id" : 4 , "serv_info" : "renovate Window shelf." , "min_price" : 70 , "max_price" : 75 , "cetogry" : "All Window"},
+        {"id" : 5 , "serv_info" : "Adjust window" , "min_price" : 60 , "max_price" : 65 , "cetogry" : "All Window"},
+        {"id" : 3 , "serv_info" : "Install handles" , "min_price" : 20 , "max_price" : 25 , "cetogry" : "All Door"},
+        {"id" : 6 , "serv_info" : "Adjust door" , "min_price" : 50 , "max_price" : 55 , "cetogry" : "All Door"},
+        {"id" : 7 , "serv_info" : "IShorten Bed boards." , "min_price" : 35 , "max_price" : 40 , "cetogry" : "All Bed"},
+        {"id" : 8 , "serv_info" : "Uinstall bed boards" , "min_price" : 10 , "max_price" : 15 , "cetogry" : "All Bed"},
+        {"id" : 9 , "serv_info" : "cFix bed's sides hings" , "min_price" : 85 , "max_price" : 90 , "cetogry" : "All Bed"},
+        {"id" : 13 , "serv_info" : "Dismantle/ install bedroom." , "min_price" : 115 , "max_price" : 120 , "cetogry" : "All Bed"},
+        {"id" : 10 , "serv_info" : "open locked door ( lost the key)" , "min_price" : 150 , "max_price" : 155 , "cetogry" : "All Door"},
+        {"id" : 11 , "serv_info" : "Install wood on the side of the bed" , "min_price" : 100 , "max_price" : 100 , "cetogry" : "All Door"},
+        {"id" : 12 , "serv_info" : "Shorten Bed boards." , "min_price" : 35 , "max_price" : 40 , "cetogry" : "All Door"}
+    ],
+    "Plumbing" : [
+        {"id" : 1 , "serv_info" : "install shower Mixer" , "min_price" : 105 , "max_price" : 110 , "cetogry" : "All Sink"},
+        {"id" : 2 , "serv_info" : "Install sink mixer" , "min_price" : 295 , "max_price" : 300 , "cetogry" : "All Sink"},
+        {"id" : 3 , "serv_info" : "Install wall mounted sink and mixer" , "min_price" : 20 , "max_price" : 25 , "cetogry" : "All Sink"},
+        {"id" : 4 , "serv_info" : "Install heater adaptor" , "min_price" : 50 , "max_price" : 55 , "cetogry" : "All Waterheater"},
+        {"id" : 5 , "serv_info" : "Change heater pipe ( flexible pipes)" , "min_price" : 115 , "max_price" : 120 , "cetogry" : "All Waterheater"},
+        {"id" : 6 , "serv_info" : "Adjust door" , "min_price" : 50 , "max_price" : 55 , "cetogry" : "All Bathtub"},
+        {"id" : 7 , "serv_info" : "Install Machine shower / jacuzzi shower" , "min_price" : 105 , "max_price" : 110 , "cetogry" : "All Shower"},
+        {"id" : 8 , "serv_info" : "Install shower cabinet" , "min_price" : 100 , "max_price" : 100 , "cetogry" : "All Shower"},
+        {"id" : 9 , "serv_info" : "Install 220 two phases water pump." , "min_price" : 40 , "max_price" : 45 , "cetogry" : "All Water"},
+        {"id" : 10 , "serv_info" : "Install 380 three phases water pump." , "min_price" : 150 , "max_price" : 155 , "cetogry" : "All Water"},
+        {"id" : 11 , "serv_info" : "Change water filter cartidge 3 levels only" , "min_price" : 100 , "max_price" : 100 , "cetogry" : "All Water-Filter"},
+        {"id" : 12 , "serv_info" : "Whole Finishing (Kitchen + Bathroom)." , "min_price" : 35 , "max_price" : 40 , "cetogry" : "All Finishing"},
+        {"id" : 13 , "serv_info" : "Install toilet seat washer spout." , "min_price" : 10 , "max_price" : 15 , "cetogry" : "All Other"}
+    ],
+    "Painting" : [
+        {"id" : 1 , "serv_info" : "Paint door (lacquer) (per 1 item) maintenance" , "min_price" : 245 , "max_price" : 250 , "cetogry" : "All Door / Window"},
+        {"id" : 2 , "serv_info" : "Paint window (lacquer) (1 per item) maintenance" , "min_price" : 170 , "max_price" : 175 , "cetogry" : "All Door / Window"},
+        {"id" : 3 , "serv_info" : "Paint balcony window (lacquer) maintenance" , "min_price" : 295 , "max_price" : 300 , "cetogry" : "All Door / Window"},
+        {"id" : 4 , "serv_info" : "Paint door (lacquer) (per 1 item) Setup & Finishing" , "min_price" : 475 , "max_price" : 480 , "cetogry" : "All Door / Window"},
+        {"id" : 5 , "serv_info" : "Decorate walls" , "min_price" : 30 , "max_price" : 35 , "cetogry" : "All Decor / Wallpaper"},
+        {"id" : 6 , "serv_info" : "Pasting wallpaper (per 1m)" , "min_price" : 30 , "max_price" : 35 , "cetogry" : "All Decor / Wallpaper"},
+        {"id" : 7 , "serv_info" : "Paint walls & decorated Corniche (per 1m)" , "min_price" : 10 , "max_price" : 15 , "cetogry" : "All Roofs & Walls"},
+        {"id" : 8 , "serv_info" : "Paint on the conch (per 1m)" , "min_price" : 30 , "max_price" : 35 , "cetogry" : "All Roofs & Walls"},
+        {"id" : 9 , "serv_info" : "Paints regular walls or gypsum board per meter" , "min_price" : 20 , "max_price" : 25 , "cetogry" : "All Roofs & Walls"},
+        {"id" : 10 , "serv_info" : "Make decorated Corniche - Vertical Metering" , "min_price" : 15 , "max_price" : 20 , "cetogry" : "All Corniche"},
+        {"id" : 11 , "serv_info" : "Make decorated Corniche -Horizontal Metering" , "min_price" : 25 , "max_price" : 30 , "cetogry" : "All Corniche"}   
+    ],
+    "Conditioning" : [
+        {"id" : 1 , "serv_info" : "Clean air conditioner & External unit" , "min_price" : 295 , "max_price" : 300 , "cetogry" : "All Repairing"},
+        {"id" : 2 , "serv_info" : "Fix leaking firion (Pipe Welding)" , "min_price" : 305 , "max_price" : 310 , "cetogry" : "All Repairing"},
+        {"id" : 3 , "serv_info" : "Extend air conditioner tube" , "min_price" : 310 , "max_price" : 315 , "cetogry" : "All Repairing"},
+        {"id" : 4 , "serv_info" : "Fix noisy External unit" , "min_price" : 355 , "max_price" : 360 , "cetogry" : "All Repairing"},
+        {"id" : 5 , "serv_info" : "Install air conditioner external and internal units ((1.5/2.25 hp)" , "min_price" : 475 , "max_price" : 480 , "cetogry" : "All Install / Remove"},
+        {"id" : 6 , "serv_info" : "Install a hang for the external unit" , "min_price" : 145 , "max_price" : 150 , "cetogry" : "All Install / Remove"},
+        {"id" : 7 , "serv_info" : "Change External unit compressor and firion recharge" , "min_price" : 1175 , "max_price" : 1180 , "cetogry" : "All Install / Remove"},
+        {"id" : 8 , "serv_info" : "Change heat sensor" , "min_price" : 295 , "max_price" : 300 , "cetogry" : "All Install / Remove"},
+        {"id" : 9 , "serv_info" : "Uninstall conditioner internal & external (1.5/2.25 hp)" , "min_price" : 165 , "max_price" : 170 , "cetogry" : "All Install / Remove"},
+        {"id" : 10 , "serv_info" : "Remove the internal unit of the conditioning" , "min_price" : 120 , "max_price" : 125 , "cetogry" : "All Install / Remove"},
+        {"id" : 11 , "serv_info" : "Remove and install (Shifting) the internal unit of the conditioning" , "min_price" : 175 , "max_price" : 180 , "cetogry" : "All Install / Remove"}   
+    ],
+    "Cleaning" : [
+        {"id" : 1 , "serv_info" : "Area from 80 to 100 meter" , "min_price" : 235 , "max_price" : 240 , "cetogry" : "All SoftCleaning"},
+        {"id" : 2 , "serv_info" : "Area from 100 to 150 meter" , "min_price" : 295 , "max_price" : 295 , "cetogry" : "All SoftCleaning"},
+        {"id" : 3 , "serv_info" : "Area from 150 to 200 meter" , "min_price" : 355 , "max_price" : 340 , "cetogry" : "All SoftCleaning"},
+        {"id" : 4 , "serv_info" : "Area from 80 to 120 meter" , "min_price" : 590 , "max_price" : 590 , "cetogry" : "All DeepCleaning"},
+        {"id" : 5 , "serv_info" : "Area from 120 to 200 meter" , "min_price" : 765 , "max_price" : 765 , "cetogry" : "All DeepCleaning"},
+        {"id" : 6 , "serv_info" : "Area from 200 to 250 meter" , "min_price" : 945 , "max_price" : 945 , "cetogry" : "All DeepCleaning"},
+        {"id" : 7 , "serv_info" : "Area from 250 to 300 meter" , "min_price" : 110 , "max_price" : 110 , "cetogry" : "All DeepCleaning"},
+        {"id" : 8 , "serv_info" : "Area from 80 to 120 meter" , "min_price" : 1000 , "max_price" : 1000 , "cetogry" : "All AfterConstructionFinishing "},
+        {"id" : 9 , "serv_info" : "Area from 120 to 200 meter" , "min_price" : 1220 , "max_price" : 1220 , "cetogry" : "All AfterConstructionFinishing"},
+        {"id" : 10 , "serv_info" : "Area from 200 to 250 meter" , "min_price" : 1650 , "max_price" : 1650 , "cetogry" : "All AfterConstructionFinishing"},
+        {"id" : 11 , "serv_info" : "Area from 250 to 300 meter" , "min_price" : 2120 , "max_price" : 2120 , "cetogry" : "All AfterConstructionFinishing"}   
+    ],
+    "Satellite" : [
+        {"id" : 1 , "serv_info" : "Make Software for the receiver" , "min_price" : 50 , "max_price" : 55 , "cetogry" : "All Fix"},
+        {"id" : 2 , "serv_info" : "Change/ connect new dish wire" , "min_price" : 75 , "max_price" : 80 , "cetogry" : "All Fix"},
+        {"id" : 3 , "serv_info" : "Adjust 1m dish signal for 1 satellite only" , "min_price" : 70 , "max_price" : 75 , "cetogry" : "All Fix"},
+        {"id" : 4 , "serv_info" : "Adjust 1m dish signal for 2 satellite only" , "min_price" : 100 , "max_price" : 105 , "cetogry" : "All Fix"},
+        {"id" : 5 , "serv_info" : "Adjust 180m dish signal for 2 to 12 satellites only" , "min_price" : 250 , "max_price" : 255 , "cetogry" : "All Fix"},
+        {"id" : 6 , "serv_info" : "Adjust 240m dish signal up to 12 satellites" , "min_price" : 30 , "max_price" : 35 , "cetogry" : "All Install/Remove"},
+        {"id" : 7 , "serv_info" : "Install dish with one outlet." , "min_price" : 125 , "max_price" : 130 , "cetogry" : "All Install/Remove"},
+        {"id" : 8 , "serv_info" : "Install dish with four outlets" , "min_price" : 200 , "max_price" : 205 , "cetogry" : "All Install/Remove"},
+        {"id" : 9 , "serv_info" : "Install display hanger for TV." , "min_price" : 50 , "max_price" : 55 , "cetogry" : "All Install/Remove"},
+        {"id" : 10 , "serv_info" : "Install camshaft" , "min_price" : 75 , "max_price" : 80 , "cetogry" : "All Install/Remove"},
+        {"id" : 11 , "serv_info" : "Uninstall satellite dish." , "min_price" : 50 , "max_price" : 55 , "cetogry" : "All Install/Remove"}   
+    ],
+    "Gypsum-Board" : [
+        {"id" : 1 , "serv_info" : "The cost is estimated after the inspection" , "min_price" : 100 , "max_price" : 100 , "cetogry" : "All Setup&Finish"}
+    ],
+    "Ceramic" : [
+        {"id" : 1 , "serv_info" : "The reservation must be completed so that the professional (technician) can perform an inspection for identifying the requirements the order cost." ,
+         "min_price" : 100 , "max_price" : 100 , "cetogry" : "All Install"}
+     ],
+    "Aluminum" : [
+        {"id" : 1 , "serv_info" : "Remove/ Install aluminium window" , "min_price" : 50 , "max_price" : 60 , "cetogry" : "All Window"},
+        {"id" : 2 , "serv_info" : "Install wheels, or rubber frame for aluminium window" , "min_price" : 25 , "max_price" : 30 , "cetogry" : "All Window"},
+        {"id" : 3 , "serv_info" : "Change/ repair aluminium window lock" , "min_price" : 55 , "max_price" : 60 , "cetogry" : "All Window"},
+        {"id" : 4 , "serv_info" : "Window doesn't close/ open properly" , "min_price" : 55 , "max_price" : 60 , "cetogry" : "All Window"},
+        {"id" : 5 , "serv_info" : "Repair bent aluminium window frame" , "min_price" : 60 , "max_price" : 65 , "cetogry" : "All Window"},
+        {"id" : 6 , "serv_info" : "Change broken/torn wire/mesh for aluminium window" , "min_price" : 53 , "max_price" : 59 , "cetogry" : "All Window"},
+        {"id" : 7 , "serv_info" : "Install lock aluminium door" , "min_price" : 165 , "max_price" : 170 , "cetogry" : "All Door"},
+        {"id" : 8 , "serv_info" : "Install aluminium door without frame" , "min_price" : 112 , "max_price" : 118 , "cetogry" : "All Door"},
+        {"id" : 9 , "serv_info" : "Install wheels, or rubber frame for aluminium door" , "min_price" : 60 , "max_price" : 65 , "cetogry" : "All Door"},
+        {"id" : 10 , "serv_info" : "Small B.S model (including installation fees and material per 1m)" , "min_price" : 1410 , "max_price" : 1765 , "cetogry" : "All Customize"},
+        {"id" : 11 , "serv_info" : "Big B.S model (including installation fees and material per 1m)" , "min_price" : 1765 , "max_price" : 2120 , "cetogry" : "All Customize"}   
+    ],
+    "Appliances" : [
+        {"id" : 1 , "serv_info" : "Repair/ charge freon" , "min_price" : 455 , "max_price" : 500 , "cetogry" : "All Fridges&freezers"},
+        {"id" : 2 , "serv_info" : "Unclogging drainage pipes with charging freon" , "min_price" : 645 , "max_price" : 650 , "cetogry" : "All Fridges&freezers"},
+        {"id" : 3 , "serv_info" : "Change compressor" , "min_price" : 550 , "max_price" : 600 , "cetogry" : "All Fridges&freezers"},
+        {"id" : 4 , "serv_info" : "Calibrate/ repair Thermostat" , "min_price" : 118 , "max_price" : 123 , "cetogry" : "All Fridges&freezers"},
+        {"id" : 5 , "serv_info" : "Repair/ change shock absorbers (shaking problem)" , "min_price" : 245 , "max_price" : 250 , "cetogry" : "All Laundry Machine (Auto/ Regular) &. Dryers"},
+        {"id" : 6 , "serv_info" : "Change the drainage filter or water ejection (Drainage problem)" , "min_price" : 195 , "max_price" : 200 , "cetogry" : "All Laundry Machine (Auto/ Regular) &. Dryers"},
+        {"id" : 7 , "serv_info" : "Change door lock" , "min_price" : 155 , "max_price" : 160 , "cetogry" : "All Laundry Machine (Auto/ Regular) &. Dryers"},
+        {"id" : 8 , "serv_info" : "Change flame sensor" , "min_price" : 82 , "max_price" : 88 , "cetogry" : "All Cookers"},
+        {"id" : 9 , "serv_info" : "Change flames set" , "min_price" : 82 , "max_price" : 88 , "cetogry" : "All Cookers"},
+        {"id" : 10 , "serv_info" : "Change 1 Fonya only (weak fire problem)" , "min_price" : 70 , "max_price" : 75 , "cetogry" : "All Cookers"},
+        {"id" : 11 , "serv_info" : "Change insulation (Cooker overheats from outside)" , "min_price" : 295 , "max_price" : 300 , "cetogry" : "All Cookers"}   
+    ],
+    "Sterilizatio" : [
+        {"id" : 1 , "serv_info" : "Area less than 500 meters (Using spray machines and disinfectant materials sprayed on floors, furnitures, bathrooms and kitchens) child and pet safe." 
+        , "min_price" : 5 , "max_price" : 5 , "cetogry" : "All Sterilization & Disinfection meter"},
+        {"id" : 2 , "serv_info" : "Area larger than 500 meters (Using spray machines and disinfectant materials sprayed on floors, furnitures, bathrooms and kitchens) child and pet safe." 
+        , "min_price" : 4 , "max_price" : 4 , "cetogry" : "All Sterilization & Disinfection meter"}
+    ],
+    "Pest-Control" : [
+        {"id" : 1 , "serv_info" : "Area from 80 to 100 meter" , "min_price" : 750 , "max_price" : 750 , "cetogry" : "All Crawling Insects (Ant, Coclroaches, Beatles, etc..)"},
+        {"id" : 2 , "serv_info" : "Area from 100 to 200 meter" , "min_price" : 850 , "max_price" : 850 , "cetogry" : "All Crawling Insects (Ant, Coclroaches, Beatles, etc..)"},
+        {"id" : 3 , "serv_info" : "Area from 200 to 300 meter" , "min_price" : 950 , "max_price" : 950 , "cetogry" : "All Crawling Insects (Ant, Coclroaches, Beatles, etc..)"},
+        {"id" : 4 , "serv_info" : "Area more than 300 meter" , "min_price" : 1200 , "max_price" : 1200 , "cetogry" : "All Crawling Insects (Ant, Coclroaches, Beatles, etc..)"},
+        {"id" : 5 , "serv_info" : "The cost is estimated after the inspection" , "min_price" : 100 , "max_price" : 100 , "cetogry" : "All Flies (Mosquitos, Flies, and etc..)"},
+        {"id" : 6 , "serv_info" : "Area from 80 to 100 meter" , "min_price" : 700 , "max_price" : 700 , "cetogry" : "All Rodents (Mice, Rats, Jaculus)"},
+        {"id" : 7 , "serv_info" : "Area from 100 to 200 meter" , "min_price" : 850 , "max_price" : 850 , "cetogry" : "All Rodents (Mice, Rats, Jaculus)"},
+        {"id" : 8 , "serv_info" : "Area from 200 to 300 meter" , "min_price" : 1000 , "max_price" : 1000 , "cetogry" : "All Rodents (Mice, Rats, Jaculus)"},
+        {"id" : 9 , "serv_info" : "Inspection for an area more than 300 meter" , "min_price" : 100 , "max_price" : 100 , "cetogry" : "All Rodents (Mice, Rats, Jaculus)"},
+        {"id" : 10 , "serv_info" : "Area from 80 to 100 meter" , "min_price" : 700 , "max_price" : 700 , "cetogry" : "All Crawlings (Scorpion, Snakes, Lizards and Geckos)"},
+        {"id" : 11 , "serv_info" : "Area from 100 to 200 meter" , "min_price" : 850 , "max_price" : 850 , "cetogry" : "All Crawlings (Scorpion, Snakes, Lizards and Geckos)"}   
+    ],
+    "Plastering" : [
+        {"id" : 1 , "serv_info" : "Tarshah and oysters (Bouaj, Zawy, Takis, Square and Thread) per meter" , "min_price" : 35 , "max_price" : 40 , "cetogry" : "All Plastering Works"},
+        {"id" : 2 , "serv_info" : "Tartsha and oyster (Bug + Zoe) per meter" , "min_price" : 30 , "max_price" : 35 , "cetogry" : "All Plastering Works"},
+        {"id" : 3 , "serv_info" : "Tarsha + shield shell (per meter)" , "min_price" : 20 , "max_price" : 23 , "cetogry" : "All Plastering Works"},
+        {"id" : 4 , "serv_info" : "Daharah and Musees - for ceiling works (per meter)" , "min_price" : 20 , "max_price" : 23 , "cetogry" : "All Plastering Works"},
+        {"id" : 5 , "serv_info" : "Haven't found the service! Need Help? Need an Inspection Report?" , "min_price" : 60 , "max_price" : 65 , "cetogry" : "All Plastering Works"}
+           ]
+}

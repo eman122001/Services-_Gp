@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.set-locaiton-div {
+    position: fixed;
+    width: 900px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+.set-locaiton-div.active {
+    visibility: visible;
+    opacity: 1;
+}
+.set-locaiton-div .head {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .5px solid rgb(201, 201, 201);
+}
+.set-locaiton-div .head .text-and-go-back {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.set-locaiton-div .head .text-and-go-back > p {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.set-locaiton-div .head .text-and-go-back button.go-back-btn,
+.set-locaiton-div .head .close-location-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.set-locaiton-div .head .text-and-go-back button.go-back-btn > i {
+    color: rgb(49, 49, 49);
+    font-size: 22px;
+    opacity: .8;
+    margin: 0 10px;
+}
+.set-locaiton-div .head .close-location-btn > i {
+    color: rgb(49, 49, 49);
+    font-size: 30px;
+    opacity: .8;
+}
+.set-locaiton-div .location-map {
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+.set-locaiton-div .location-map .search-input {
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 35px;
+    border: 1px solid rgb(94, 94, 94);
+    outline: none;
+    text-indent: 5px;
+}
+.set-locaiton-div .location-map .map-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.set-locaiton-div .location-map .map-container iframe {
+    border: none;
+    height: 100%;
+}
+.set-locaiton-div .comleate-req-div {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px;
+}
+.set-locaiton-div .comleate-req-div button.complete-btn {
+    padding: 10px 20px;
+    color: snow;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgb(29, 62, 211);
+}
+
+@media (max-width: 510px) {
+    .set-locaiton-div .location-map .search-input {
+        top: 50px;
+    }
+}
+@media (max-width: 931px) {
+    .set-locaiton-div {
+        width: 100%;
+    }
+}
